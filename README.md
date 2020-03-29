@@ -11,3 +11,6 @@ This is what the script does.
 
 ### How to run?
 Download the `.py` file, and run.
+
+
+![Screenshot](./Example.png)
