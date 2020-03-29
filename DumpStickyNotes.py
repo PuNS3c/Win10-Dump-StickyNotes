@@ -8,7 +8,7 @@ import os
 db = os.getenv('localappdata') + r"\Packages\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe\LocalState\plum.sqlite"
 conn = sqlite3.connect(db)
 cur = conn.cursor()
-cur.execute("SELECT * FROM Note")
+cur.execute("SELECT Text FROM Note")
 rows = cur.fetchall()
 for row in rows:
         print(row[0])
