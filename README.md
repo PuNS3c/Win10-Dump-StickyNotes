@@ -6,7 +6,7 @@ Dump sticky notes content with python script
 
 ### How does it work? 
 `Microsoft.Notes.exe` use sqlite db to store the notes. You can see the handle in ProcessExplorer. 
-Reading it is as simple as `SELECT * FROM Note`, and viewing the content. 
+Reading it is as simple as `SELECT * FROM Note` table, and viewing the content. 
 This is what the script does.
 
 ### How to run?
