@@ -10,6 +10,7 @@ Reading it is as simple as `SELECT * FROM Note` table, and viewing the content.
 This is what the script does.
 
 ### Usages
+* Post exploitation. Notes might contain usefull data. 
 * Backup stickynote contents.
 * Extend this code to change programaticly basicly anything about the notes (For ex. Light with color notes that contain a string). Use as a refernce the [Tables.pdf](./Tables.pdf) file in this repo. 
 
